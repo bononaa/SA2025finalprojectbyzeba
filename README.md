@@ -36,12 +36,11 @@ Urban cities often face parking congestion, stockouts, and underutilization due 
 
 ```mermaid
 graph TD
-  A[Dataset: Parking Lot Info] --> B[Preprocessing & Feature Engineering]
-  B --> C[Model 1: Fixed Pricing]
-  B --> D[Model 2: Demand-Based Pricing]
-  B --> E[Model 3: Competitive Pricing]
-  E --> F[Real-time Streaming via Pathway]
-  F --> G[Output: Dynamic Prices (JSONL)]
-  G --> H[Bokeh Visualizer]
+  A["Dataset: Parking Lot Info"] --> B["Preprocessing & Feature Engineering"]
+  B --> C["Model 1: Fixed Pricing"]
+  B --> D["Model 2: Demand-Based Pricing"]
+  B --> E["Model 3: Competitive Pricing"]
+  E --> F["Real-time Streaming via Pathway"]
+  F --> G["Output: Dynamic Prices (JSONL)"]
+  G --> H["Bokeh Visualizer"]
 
-====================
